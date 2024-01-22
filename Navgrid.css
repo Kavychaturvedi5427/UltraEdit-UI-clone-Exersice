@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.container {
+    /* margin: auto; */
+    display: grid;
+    gap: 20px;
+    justify-content: center;
+    align-content: center;
+    grid-template-columns: 2fr 2fr 2fr;
+    grid-template-areas: "English Deutsch Italiano"
+        "Español français Portuguêsbrasileiro"
+        "日本 한국어 中国";
+}
+
+/* For Download Buttons */
+.bit32 {
+    background-color: #09a6bd;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 4px;
+    padding: 3px;
+    font-weight: bold;
+    border: none;
+}
+
+.bita {
+    margin-top: 15px;
+}
+
+.bit32 a,
+.bit64 a {
+    text-decoration: none;
+    color: white;
+}
+
+.bit64 {
+    background-color: rgb(129, 199, 128);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 4px;
+    padding: 3px;
+    font-weight: bold;
+    border: none;
+}
+
+.btnDownload {
+    font-family: 'Roboto', sans-serif;
+    border: 2px solid white;
+    border-radius: 4px;
+    margin-top: 40px;
+    padding: 8px;
+    background-color: #09a6bd;
+    color: white;
+    font-size: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+
+}
+
+.btnDownload a{
+    color: white;
+    text-decoration: none;
+}
+
+.btnDownload:hover {
+    background-color: rgb(21, 114, 129)
+}
+
+.bit {
+    margin-top: 2%;
+}
+
+.bit32:hover{
+    background-color: #11545f;
+}
+
+.bit64:hover{
+    background-color: rgb(34, 181, 31);
+}
+/* till here */
+
+
+.first {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    font-size: large;
+    font-weight: lighter;
+    font-family: 'Roboto', sans-serif;
+}
+
+.first img {
+    margin: 10px;
+}
+
+.second {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Segoe UI";
+    width: 44vw;
+
+}
+
+.second span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.version {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 4px solid brown; */
+    margin-top: 50px;
+    width: 70vw;
+}
+
+.version img {
+    width: 24vw;
+}
+
+
+
+.English {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 40px;
+    width: 40vw;
+    text-align: center;
+    grid-area: English;
+    width: 67%;
+    background-color: #f9f9f9;
+    margin-left: 14px;
+}
+
+.desutch {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 40px;
+    width: 40vw;
+    text-align: center;
+    grid-area: Deutsch;
+    width: 67%;
+    background-color: #f9f9f9;
+    margin: auto;
+}
+
+p:nth-child(2) {
+    font-size: small;
+}
+
+.Italiano {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 40px;
+    width: 40vw;
+    text-align: center;
+    grid-area: Italiano;
+    width: 67%;
+    background-color: #f9f9f9;
+    margin: auto;
+}
+
+
+.Español {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 40px;
+    width: 40vw;
+    text-align: center;
+    grid-area: Español;
+    width: 67%;
+    background-color: #f9f9f9;
+    margin: auto;
+}
+
+.français {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 40px;
+    width: 40vw;
+    text-align: center;
+    grid-area: français;
+    width: 67%;
+    background-color: #f9f9f9;
+    margin: auto;
+}
+
+.Portuguêsbrasileiro {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 40px;
+    width: 40vw;
+    text-align: center;
+    grid-area: Portuguêsbrasileiro;
+    width: 67%;
+    background-color: #f9f9f9;
+    margin: auto;
+}
+
+.Japanese {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 40px;
+    width: 40vw;
+    text-align: center;
+    grid-area: 日本;
+    width: 67%;
+    background-color: #f9f9f9;
+    margin: auto;
+}
+
+.Korean {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 40px;
+    width: 40vw;
+    text-align: center;
+    grid-area: 한국어;
+    width: 67%;
+    background-color: #f9f9f9;
+    margin: auto;
+}
+.Chinese {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 40px;
+    width: 40vw;
+    text-align: center;
+    grid-area: 中国;
+    width: 67%;
+    background-color: #f9f9f9;
+    margin: auto;
+}
