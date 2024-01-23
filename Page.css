@@ -22,7 +22,8 @@ main {
     grid-template-columns: 2fr 2fr 2fr;
     grid-template-areas: "English Deutsch Italiano"
         "Español français Portuguêsbrasileiro"
-        "日本 한국어 中国";
+        "日本 한국어 中国"
+        "中國 中國 中國";
 }
 
 /* For Download Buttons */
@@ -69,7 +70,7 @@ main {
 
 }
 
-.btnDownload a{
+.btnDownload a {
     color: white;
     text-decoration: none;
 }
@@ -82,13 +83,14 @@ main {
     margin-top: 2%;
 }
 
-.bit32:hover{
+.bit32:hover {
     background-color: #11545f;
 }
 
-.bit64:hover{
+.bit64:hover {
     background-color: rgb(34, 181, 31);
 }
+
 /* till here */
 
 
@@ -238,6 +240,7 @@ p:nth-child(2) {
     background-color: #f9f9f9;
     margin: auto;
 }
+
 .Chinese {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     padding: 40px;
@@ -247,4 +250,40 @@ p:nth-child(2) {
     width: 67%;
     background-color: #f9f9f9;
     margin: auto;
+}
+
+.TraditionalChinese {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 40px;
+    width: 40vw;
+    text-align: center;
+    grid-area: 中國;
+    width: 22%;
+    background-color: #f9f9f9;
+    margin: auto;
+}
+
+.content{
+    display: flex;
+    height: 50%;
+    background-color: #222222;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    padding: 40px;
+}
+.main{
+    background-color: #222222;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    height: 50%;
+    width: 100%;
+}
+
+.main p:nth-child(n+2) {
+    font-size: small;
 }
